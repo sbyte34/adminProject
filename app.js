@@ -1,4 +1,4 @@
-require('dotenv-extended').load();
+require("dotenv").config();
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
@@ -19,9 +19,7 @@ const port = process.env.port || 3006;
 //middleware
 app.use(cors());
 app.use(express.json());
-app.get("/",(req,res)=>{
-    res.json("server start")
-})
+
 
 app.use(router);
 

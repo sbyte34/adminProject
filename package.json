@@ -5,9 +5,9 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
-    "bulid": "react-scripts bulid",
-    "dev": "node app.js"
+    "start": "npm install",
+    "bulid": "npm run build",
+    "dev": "node dist/app.js"
   },
   "author": "",
   "license": "ISC",
