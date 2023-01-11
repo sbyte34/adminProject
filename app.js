@@ -8,7 +8,7 @@ require("./db/conn")
 
 const cors = require("cors");
 const router = require("./routes/router");
-const port = process.env.port || 3006;
+const port = process.env.PORT|| 3006;
 
 
 
