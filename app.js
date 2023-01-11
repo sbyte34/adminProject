@@ -19,8 +19,6 @@ const port = process.env.port || 3006;
 //middleware
 app.use(cors());
 app.use(express.json());
-
-
 app.use(router);
 
 
