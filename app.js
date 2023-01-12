@@ -19,6 +19,9 @@ const port = process.env.PORT|| 3006;
 //middleware
 app.use(cors());
 app.use(express.json());
+app.get("/",(req,res)=>{
+    res.json("server start")
+})
 app.use(router);
 
 
